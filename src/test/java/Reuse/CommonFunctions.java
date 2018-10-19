@@ -2,8 +2,6 @@ package Reuse;
 
 import java.util.Random;
 
-import org.apache.commons.lang3.RandomStringUtils;
-
 import ObjectRepository.CareersPage;
 import ObjectRepository.HomePage;
 import customcmds.ActionDriver;
@@ -14,9 +12,13 @@ public class CommonFunctions {
 	public ActionDriver aDriver;
 	
 	
+
+	
 	public CommonFunctions() {
 		
 		aDriver = new ActionDriver();
+		
+		
 		
 	}
 	

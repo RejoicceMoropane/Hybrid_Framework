@@ -1,64 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="62120" started-at="2018-10-17T08:28:32Z" finished-at="2018-10-17T08:29:34Z">
+  <suite name="Suite" duration-ms="61026" started-at="2018-10-19T11:06:53Z" finished-at="2018-10-19T11:07:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="62120" started-at="2018-10-17T08:28:32Z" finished-at="2018-10-17T08:29:34Z">
+    <test name="Default test" duration-ms="61026" started-at="2018-10-19T11:06:53Z" finished-at="2018-10-19T11:07:54Z">
       <class name="Scripts.TC1">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Scripts.TC1@4f7d0008]" name="beforeClass" is-config="true" duration-ms="2674" started-at="2018-10-17T10:28:32Z" finished-at="2018-10-17T10:28:34Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Scripts.TC1@8e24743]" name="beforeClass" is-config="true" duration-ms="2676" started-at="2018-10-19T13:06:53Z" finished-at="2018-10-19T13:06:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="FAIL" signature="ApplyOnline()[pri:0, instance:Scripts.TC1@4f7d0008]" name="ApplyOnline" duration-ms="59429" started-at="2018-10-17T10:28:34Z" finished-at="2018-10-17T10:29:34Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [You need to upload at least one .] but found [You need to upload at least one file.]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [You need to upload at least one .] but found [You need to upload at least one file.]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:496)
-	at org.testng.Assert.assertEquals(Assert.java:125)
-	at org.testng.Assert.assertEquals(Assert.java:178)
-	at org.testng.Assert.assertEquals(Assert.java:188)
-	at Scripts.TC1.ApplyOnline(TC1.java:64)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:773)
-	at org.testng.TestRunner.run(TestRunner.java:623)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
-	at org.testng.TestNG.run(TestNG.java:1018)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="TC_Apply_Online()[pri:0, instance:Scripts.TC1@8e24743]" name="TC_Apply_Online" duration-ms="58332" started-at="2018-10-19T13:06:56Z" finished-at="2018-10-19T13:07:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ApplyOnline -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:Scripts.TC1@4f7d0008]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-10-17T10:29:34Z" finished-at="2018-10-17T10:29:34Z">
+        </test-method> <!-- TC_Apply_Online -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Scripts.TC1@8e24743]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-10-19T13:07:54Z" finished-at="2018-10-19T13:07:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- Scripts.TC1 -->
     </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+  </suite> <!-- Suite -->
 </testng-results>

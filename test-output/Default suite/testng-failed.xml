@@ -6,8 +6,6 @@
       <class name="Scripts.TC1">
         <methods>
           <include name="ApplyOnline"/>
-          <include name="afterClass"/>
-          <include name="beforeClass"/>
         </methods>
       </class> <!-- Scripts.TC1 -->
     </classes>

@@ -14,8 +14,7 @@ public class StartBrowser {
 
 	public static WebDriver driver;
 	
-
-
+	
   @BeforeClass
   public void beforeClass() {
 	  
